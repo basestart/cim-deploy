@@ -17,7 +17,7 @@ cd cim-deploy
 npm link
 ```
 
-- 配置deploy命令
+- package.json 中添加script命令配置deploy命令
 
 ```
 "deploy": "cim-deploy C:/fe/github/base tttt.txt"
@@ -27,3 +27,8 @@ npm link
   - C:/fe/github/base 为目标目录
 
   - tttt.txt 为保留文件或文件夹， 包含.git文件
+
+指令运行deploy
+```
+npm run deploy
+```
