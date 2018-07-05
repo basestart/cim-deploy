@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/fridego/cim-deploy#readme",
   "dependencies": {
+    "chalk": "^2.4.1",
     "commander": "^2.16.0",
     "rimraf": "^2.6.2",
     "shelljs": "^0.8.2"
